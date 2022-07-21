@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header CSS Start */
+
+.main-container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px 0 0 40px;
+    display: flex;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.header .left-section{
+    width: 50%;
+}
+
+.header .left-section h1{
+    color: white;
+    font-size: 4.5rem;
+}
+
+.header .left-section p{
+    color: white;
+    font-size: 1rem;
+    padding: 20px 80px 20px 0px;
+}
+
+.header .left-section a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.link i{
+    color: white;
+    margin-left: 10px;
+}
+
+.header .right-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.header .right-section img{
+    height: -webkit-fill-available;
+}
+
+/* Header CSS End */
+
+
+/* Body CSS Start */
+
+.sub-body{
+    margin-top: 100px;
+    display: flex;
+}
+
+.left-body{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 25%;
+    font-size: 1.2rem;
+    margin-right: 2%;
+    height: 200px;
+}
+
+.blog-1{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    padding: 15px 30px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog-2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.right-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card{
+    width: 31%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px
+}
+
+.articles{
+    padding: 10px;
+}
+
+.articles button{
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.articles h1{
+    margin-bottom: 10px;
+}
+
+.articles span{
+    display: flex;
+}
+
+.mar-left{
+    margin-left: 30px;
+}
+
+
+
+
+
+/* Body CSS End */
