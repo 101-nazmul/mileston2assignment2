@@ -1,4 +1,6 @@
-@media screen and (min-width: 1200px) {
+/* Mobile Responsive CSS */
+
+@media screen and (max-width: 576px) {
     *{
         margin: 0;
         padding: 0;
@@ -7,33 +9,31 @@
     /* Header CSS Start */
     
     .main-container{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
     .header{
         background-color: black;
-        border-radius: 5px;
-        padding: 20px 0 0 40px;
-        display: flex;
-        height: 500px;
+        padding: 20px 100px;
+        padding-bottom: 0;
         border-radius: 20px;
         margin-top: 50px;
     }
     
     .header .left-section{
-        width: 50%;
+        text-align: center;
     }
     
     .header .left-section h1{
         color: white;
-        font-size: 4.5rem;
+        font-size: 2.1rem;
     }
     
     .header .left-section p{
+        padding: 20px 0;
         color: white;
-        font-size: 1rem;
-        padding: 20px 80px 20px 0px;
+        font-size: 1.3rem;
     }
     
     .header .left-section a{
@@ -52,15 +52,14 @@
     }
     
     .header .right-section{
-        width: 50%;
-        display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100%;
     }
     
     .header .right-section img{
-        height: -webkit-fill-available;
+        max-height: 100%;
+        margin-top: 20px;
     }
     
     /* Header CSS End */
@@ -69,72 +68,75 @@
     /* Body CSS Start */
     
     .sub-body{
-        margin-top: 100px;
-        display: flex;
+        margin-top: 50px;
     }
     
     .left-body{
-        background-color: black;
-        padding: 20px;
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        width: 25%;
-        font-size: 1.2rem;
-        margin-right: 2%;
-        height: 200px;
+        font-size: 2rem;
     }
     
     .blog-1{
         text-decoration: none;
         color: rgb(53, 53, 53);
-        padding: 15px 30px;
+        padding: 20px 30px;
         background-color: white;
         margin-bottom: 20px;
+        border: 1px solid rgb(210, 208, 208);
         border-radius: 10px;
         text-align: center;
+        width: 50%;
+        margin: 5px auto;
     }
     
     .blog-2{
         text-decoration: none;
         color: rgb(255, 255, 255);
-        padding: 15px 30px;
+        padding: 20px 30px;
         background-color: rgb(255, 0, 0);
+        margin-bottom: 20px;
         border-radius: 10px;
         text-align: center;
+        width: 50%;
+        margin: 5px auto;
     }
     
     .right-body{
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
         row-gap: 20px;
     }
     
-    .card img{
-        max-width: 100%;
+    .card .img{
+        min-width: 100%;
     }
     
     .card{
-        width: 31%;
+        width: 100%;
         border: 1px solid rgb(224, 224, 224);
         border-radius: 10px
     }
     
     .articles{
-        padding: 10px;
+        padding: 30px;
     }
     
     .articles button{
-        padding: 5px 10px;
+        padding: 10px 20px;
         background-color: whitesmoke;
         border-radius: 5px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
     }
     
     .articles h1{
         margin-bottom: 10px;
+        font-size: 2rem;
     }
     
     .articles span{
